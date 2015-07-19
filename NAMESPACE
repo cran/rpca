@@ -1,0 +1,10 @@
+#exportPattern("^[[:alpha:]]+")
+export(rpca)
+#export(rpca.gpu)
+export(F2norm)
+#export(F2norm.gpu)
+export(thresh.nuclear)
+#export(thresh.nuclear.gpu)
+export(thresh.l1)
+importFrom(compiler,cmpfun)
+       
